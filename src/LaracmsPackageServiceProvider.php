@@ -2,9 +2,9 @@
 
 namespace LaracmsPackage;
 
+use LaracmsPackage\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use LaracmsPackage\Commands\InstallCommand;
 
 class LaracmsPackageServiceProvider extends PackageServiceProvider
 {
